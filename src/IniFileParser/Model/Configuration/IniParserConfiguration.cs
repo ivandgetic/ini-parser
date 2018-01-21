@@ -50,12 +50,12 @@ namespace IniParser.Model.Configuration
             SectionStartChar = '[';
             SectionEndChar = ']';
             KeyValueAssigmentChar = '=';
-            AssigmentSpacer = " ";
+            AssigmentSpacer = "";
             NewLineStr = Environment.NewLine;
             ConcatenateDuplicateKeys = false;
             AllowKeysWithoutSection = true;
-            AllowDuplicateKeys = false;
-            AllowDuplicateSections = false;
+            AllowDuplicateKeys = true;
+            AllowDuplicateSections = true;
             AllowCreateSectionsOnFly = true;
             ThrowExceptionsOnError = true;
             SkipInvalidLines = false;
